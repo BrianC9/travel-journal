@@ -1,0 +1,12 @@
+.App {
+  margin: auto;
+  width: 700px;
+  background: #fff;
+}
+.linea {
+  width: 471px;
+  margin: 10px auto;
+  background-color: lightgray;
+  border: none;
+  height: 1px;
+}

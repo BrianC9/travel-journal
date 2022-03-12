@@ -1,0 +1,48 @@
+.Card {
+  width: 471px;
+  margin: auto;
+  display: flex;
+}
+.Card--img {
+  height: 168px;
+  width: 128px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.Card--desc {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  justify-content: center;
+}
+.Card--dates {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.desc--location {
+  display: flex;
+  align-items: center;
+}
+.desc--location--country {
+  text-transform: uppercase;
+  margin: 0 10px 0 3px;
+}
+.desc--icon--locat {
+  width: 7px;
+  height: 8px;
+  object-fit: cover;
+  display: inline-block;
+}
+.Card--link {
+  color: lightgray;
+}
+.Card--link:hover {
+  color: #f55a5a;
+}
+.Card--title {
+  font-size: 25px;
+  margin: 5px 0 10px 0;
+}
